@@ -1,12 +1,13 @@
 import Topbar from "./components/topbar/Topbar";
-import Register from "./pages/register/Register";
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
 
 function App() {
   return (
-    <>
-    <Topbar />
-    <Register />
-    </>
+    <Router>
+      <Topbar />
+      <Routes />
+    </Router>
   );
 }
 
