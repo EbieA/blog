@@ -8,7 +8,6 @@ import Single from "./pages/single/Single";
 
 
 export default function AppRoutes() {
-
     const user = false;
 
     const routes = useRoutes([
